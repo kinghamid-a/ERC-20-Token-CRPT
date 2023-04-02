@@ -23,7 +23,7 @@ interface ERC20Interface {
 contract Cryptos is ERC20Interface{
     string public name = "Cryptos";
     string public symbol = "CRPT";
-    uint public decimals = 0; //18 is very common
+    uint public decimals = 0; //18 is very common practice
     uint public override totalSupply;
     
     address public founder;
